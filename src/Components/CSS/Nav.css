@@ -1,0 +1,39 @@
+
+  /* navbar */
+  .nav{
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    right: 2rem;
+    gap: 6.3rem;
+    float: right;
+    margin: 5rem;
+    font-size: 1.8rem;
+  }
+  
+  .nav a{
+    text-decoration: none;
+    padding: .5rem 1rem;
+    transition-duration: .7s;
+    
+  }
+  
+  .nav a:hover{
+
+    border-radius: 2.5rem;
+    border-bottom: .5px solid var(--color-yellow);
+    box-shadow: var(--color-yellow) 1px 1px 4px;
+  }
+
+  @media screen and (max-width:600px) {
+    html{
+        font-size: 54.2%;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    
+
+  }

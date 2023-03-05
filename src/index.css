@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color-one:#2F2519;
+  --color-two:#4A3F35;
+  --color-yellow:#FA7D09;
+  --color-orange:#FF4301;
+  --color-light:#fff;
+}
+
+html{
+  font-size: 62.5%;
+  font-family:'Open Sans', sans-serif;
+  background-color: var(--color-one);
+  overflow-x: hidden;
+}
+
+.pages-container,.pages{
+  height: 100vh;
+}
+
+
+.App{
+position: relative;
+display: flex;
+flex-direction: column;
+
+}
+
+.pages-container{
+overflow-y: scroll;
+overflow-x: hidden;
+position: relative;
+scroll-snap-type: y mandatory;
+}
+.pages{
+  position: relative;
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: var(--color-two); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+border-radius: 5px;
+background: var(--color-orange); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: var(--color-yellow); 
+}
+
+
+
+@media screen and (max-width:600px){
+html{
+
+  font-size: 52.4%;
+}
+}

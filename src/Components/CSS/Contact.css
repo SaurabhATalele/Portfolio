@@ -1,0 +1,134 @@
+.cf{
+    width: 80rem;
+    height: auto;
+    padding: 1rem;
+    background-color: var(--color-two);
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cf form{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+    padding: 1rem;
+    flex-shrink: 0;
+    gap: 1rem;
+}
+
+
+
+.cf input,textarea{
+    position: relative;
+    margin: .5rem;
+    width: 35rem;
+    height: 5rem;
+    padding: 1rem;
+    background-color: var(--color-light);
+    opacity: 1;
+    border:0.1px solid transparent;
+    color: var(--color-orange);
+    border-radius: .5rem;
+    font-size: 1.6rem;
+}
+
+
+form .field,.row{
+    align-items:start;
+    display: flex;
+    flex-direction: column;
+}
+.field label,.row label{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+input:focus,textarea:focus{
+    
+    border: none;
+    outline: none;
+}
+
+input::placeholder,textarea::placeholder{
+    color: var(--color-orange);
+    opacity: 0.5;
+}
+
+
+
+.field textarea{
+    margin-top: 1rem;
+    width: 71rem;
+    height: 7rem;
+    font-weight:500 ;
+}
+
+
+
+.Message{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.submit-btn{
+    width: 15rem;
+height: 4rem;
+border: none;
+border-radius: .5rem;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    background-color: var(--color-two);
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.socials{
+    display: flex;
+    gap: 3rem;
+    margin: 5rem;
+}
+
+.socials img{
+    width:4rem;
+    height: 4rem;
+    opacity: 0.6;
+}
+
+
+@media screen and (max-width:600px){
+
+    .cf{
+        align-items: center;
+        width: 100vw;
+        height: auto;
+    }
+    .cf form{
+        align-items: center;
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .cf input,textarea{
+        width: 80vw;
+        height: 5rem;
+    }
+
+    .field textarea{
+        width: 80vw;
+        height: 10rem;
+
+    }
+
+   
+    
+}
