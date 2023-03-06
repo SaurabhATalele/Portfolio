@@ -46,7 +46,6 @@ const Projects = () => {
 
  {
     items.map((elem)=>{
-        console.log(elem);
         const {name,builder,desc,github} = elem;
  return (<SwiperSlide>
 

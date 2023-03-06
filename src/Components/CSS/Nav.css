@@ -18,6 +18,10 @@
     
   }
   
+
+  .image-opener{
+      display:none;
+  }
   .nav a:hover{
 
     border-radius: 2.5rem;
@@ -30,10 +34,28 @@
         font-size: 54.2%;
     }
 
-    .nav{
-        display: none;
-    }
+.close{
+    display:none;
+}
 
+.image-opener{
+    z-index:500;
+    position:fixed;
+    width:3rem;
+    height:3rem;
+    margin: 2rem 3rem 0 0;
+    right:0;
+    display:block;
+}
+    .nav{
+        border-radius:.5rem;
+        width:20rem;
+        padding:2rem;
+        margin: 8rem 0;
+        background-color:var(--color-two);
+        flex-direction:column;
+        z-index:500;
+    }
     
 
   }
