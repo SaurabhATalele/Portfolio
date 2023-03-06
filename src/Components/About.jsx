@@ -12,24 +12,23 @@ export default function About() {
         <h1 className="heading">ABOUT</h1>
     <motion.div
     initial={
-     { x:-100}
+     { scale:0.4}
     }
     transition={{
       duration:1
     }}
    
     whileInView={{
-    x:0
+scale:1
     }}
     className="about" >
     <img src={image} alt="image" className="image"/>
     <div className="about-data text-light">
-    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
-    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, 
-    content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum 
-    as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
-    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-    </div> 
+      I am a Third year student at G. H. Raisoni Institute of Engineering and Technology in the Information Technolog Department. I have 
+      been learning Python and have a hands on experience of 3 years in it. I have been working on full stack development since last 6 months.
+      I have a 1 year of hands on experience of React Js development with 3 mini projects on it.
+      I also have been learning and solving DSA problems and have solved around 300 problems across various platforms.
+   </div> 
     </motion.div>
       
     </div>
