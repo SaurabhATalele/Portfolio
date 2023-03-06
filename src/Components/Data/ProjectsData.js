@@ -8,17 +8,24 @@ const java = "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programm
 const android = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/1900px-Android_Studio_Icon_3.6.svg.png"
 const data = [
       {
+        name:"Tours and Travels App",
+        builder:[html,css,js,django],
+        desc: "The application is used for booking the packages for the tours. It is build using HTML, CSS and JavaScript. The backend is build in django framework. The database used here is the MySQL.",
+        github:"https://github.com/SaurabhATalele/Tours-Management-System-.git"
+},
+      
+      {
+        name:"Android App for PIB",
+        builder:[python,django,android,java],
+        desc: "The application is built for the Press Information Beauro of India. It includes the news from various ministries of Indian Government. The app is built using the Android Studio and the backend is build in django framework. The database used here is the firebase database and the messaging is done by the same.",
+        github:"https://github.com/SaurabhATalele/PIB-News-Extractor"
+},
+      {
         name:"Web Based Cloud App",
         builder:[python,django,html,css,js],
         desc: "This is a web application that can store your data on the cloud that has various backup options and users can access thier data from anywhere they want to.",
         github:"https://github.com/SaurabhATalele/cloud-app-using-django"
-},  {
-        name:"Android App for PIB",
-        builder:[python,django,android,java],
-        desc: "The application is built for the Press Information Beauro of India. It includes the news from various ministries of Indian Government. The app is built using the Android Studio and the backend is build in django framework. The database used here is the firebase database and the messaging is done by the same.",
-        github:"https://github.com/SaurabhATalele/cloud-app-using-django"
-},
-
+}, 
 
 ]
 
