@@ -5,12 +5,12 @@ import menu from "../assets/menu.png";
 export default function Nav() {
     const opener = () =>{
         var navbar = document.getElementById("navbar");
-        navbar.classList.toggle("close");
+        navbar.classList.toggle("open");
     }
   return (
     <div>
       <img src={menu} alt="github" className="image-opener" onClick={opener}/>
-    <nav className="nav close" id = 'navbar'>
+    <nav className=" nav" id = 'navbar'>
     <a href="#home" className="text-light" onClick={opener}>
       Home
     </a>

@@ -22,7 +22,6 @@
 
   .image-opener{
       display:none;
-
   }
   .nav a:hover{
 
@@ -38,7 +37,7 @@
 
 
 .image-opener{
-    z-index:500;
+    z-index:1000;
     position:fixed;
     width:3rem;
     height:3rem;
@@ -53,18 +52,20 @@
         border-radius:.5rem;
         width:20rem;
         padding:2rem;
-        margin: 5.5rem 0;
+        margin:  0;
         background-color:var(--color-two);
-        
         flex-direction:column;
         z-index:500;
+        width:0;
     
     
 
   }
 
-.close{
-    right:2rem;
+.open{
+    height:100vh;
+    right:0rem;
+    width:80%;
 }
 
   }
