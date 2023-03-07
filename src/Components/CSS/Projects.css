@@ -6,6 +6,8 @@
 }
 
 .swiper {
+    position:absolute;
+    bottom:20vh;
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -15,7 +17,7 @@
     background-position: center;
     background-size: cover;
     width: 40rem;
-    height: 50rem;
+    height: 50vh;
     background-color: var(--color-two);
     display: flex;
     align-items: center;

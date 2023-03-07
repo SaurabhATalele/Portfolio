@@ -10,6 +10,8 @@ export default function Contact() {
     <div className="pages contact-page" id="connect">
     <h1 className="heading">Contact</h1>
 
+      <div className="contact-form">
+
     <div className="cf">
 
     <form>
@@ -63,10 +65,12 @@ export default function Contact() {
     </div>
 
     
+      </div>
 
     <footer className="text-light d-flex">
     This project is Build using React JS, HTML, CSS, Framer Motion, TypeWriter,etc.
     </footer>
+
 
     </div>
   )

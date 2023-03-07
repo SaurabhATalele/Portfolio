@@ -1,4 +1,15 @@
+
+
+.contact-form{
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    bottom:20vh;
+}
+
 .cf{
+    
     width: 80rem;
     height: auto;
     padding: 1rem;
