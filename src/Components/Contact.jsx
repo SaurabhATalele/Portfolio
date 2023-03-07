@@ -49,7 +49,7 @@ export default function Contact() {
 
 
     <div className="socials">
-    <a href=""><img src={Insta} alt="Instagram"/></a>
+    <a href="https://www.instagram.com/saurabhtalele1122/"><img src={Insta} alt="Instagram"/></a>
     <a href="https://github.com/SaurabhATalele"><img src={Gh} alt="GitHub"/></a>
     <a href="https://www.linkedin.com/in/saurabh-talele-6558601b1/">
     <img src={linkedin} alt="LinkedIn"/>
@@ -65,7 +65,7 @@ export default function Contact() {
     
 
     <footer className="text-light d-flex">
-    This project is Build using React, Html, CSS
+    This project is Build using React JS, HTML, CSS, Framer Motion, TypeWriter,etc.
     </footer>
 
     </div>

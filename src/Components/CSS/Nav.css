@@ -1,7 +1,7 @@
 
   /* navbar */
   .nav{
-    position: fixed;
+      position:absolute;
     z-index: 100;
     display: flex;
     right: 2rem;
@@ -9,6 +9,7 @@
     float: right;
     margin: 5rem;
     font-size: 1.8rem;
+    transition-duration:.5s;
   }
   
   .nav a{
@@ -21,6 +22,7 @@
 
   .image-opener{
       display:none;
+
   }
   .nav a:hover{
 
@@ -34,9 +36,6 @@
         font-size: 54.2%;
     }
 
-.close{
-    display:none;
-}
 
 .image-opener{
     z-index:500;
@@ -48,14 +47,24 @@
     display:block;
 }
     .nav{
+        position :fixed;
+        height:50rem;
+        right:-30rem;
         border-radius:.5rem;
         width:20rem;
         padding:2rem;
-        margin: 8rem 0;
+        margin: 5.5rem 0;
         background-color:var(--color-two);
+        
         flex-direction:column;
         z-index:500;
-    }
     
+    
+
+  }
+
+.close{
+    right:2rem;
+}
 
   }
