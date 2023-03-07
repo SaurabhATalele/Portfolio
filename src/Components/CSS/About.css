@@ -17,7 +17,7 @@
 
 .about{
     position:absolute;
-    bottom:25vh;
+    bottom:5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,11 +57,7 @@
 
     }
     .pages .heading{
-        margin-bottom: 5rem;
-        position:relative;
-
-        top: 0;
-        
+        margin-bottom: 5rem;        
         font-size: 3.2rem;
     }
 
