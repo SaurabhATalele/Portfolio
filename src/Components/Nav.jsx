@@ -25,7 +25,7 @@ export default function Nav() {
       Connect
     </a>
 
-    <a href="https://drive.google.com/file/d/1A3vqgpf73LGuACTtcP7rWQyNvEk6ymB3/view?usp=share_link" className="text-light">
+    <a href="https://resumesaurabhatalele.vercel.app/" className="text-light">
       Resume
     </a>
   </nav>
