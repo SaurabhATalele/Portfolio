@@ -71,7 +71,7 @@ const Projects = () => {
 </div>
 
 <div className="gh-btn ">
-    <a href={github} className=" btn bg-yellow">Github Code</a>
+    <a href={github} className=" btn bg-yellow">Visit</a>
 </div>
 
   
